@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04eb2f75-0fb6-4552-bdea-27b595e0acb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/genericsclassproblem/GenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericsclassproblem/MaxNumberFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericsclassproblem/MaxNumberFindMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genericsclassproblem/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericsclassproblem/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="MaxNumberFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericsclassproblem.MaxNumberFind" />
+    <configuration name="MaxNumberFindMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericsclassproblem.MaxNumberFindMain" />
       <module name="Generics_Class" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxNumberFind" />
+        <item itemvalue="Application.MaxNumberFindMain" />
       </list>
     </recent_temporary>
   </component>

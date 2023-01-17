@@ -3,31 +3,59 @@ package genericsclassproblem;
 import java.util.Scanner;
 
 public class Repository {
-    public void getInputByUser() {
+    void inputInteger() {
+
+        Integer firstNumber, secondNumber, thirdNumber;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\nEnter the integer values only.");
+        System.out.print("Enter the first number : ");
+        firstNumber = scanner.nextInt();
+
+        System.out.print("Enter the Second number : ");
+        secondNumber = scanner.nextInt();
+
+        System.out.print("Enter the Third number : ");
+        thirdNumber = scanner.nextInt();
+
+        GenericClass genericClass = new GenericClass(firstNumber, secondNumber, thirdNumber);
+        genericClass.testMaximum();
+    }
+
+    void inputFloat() {
+
+        Float firstNumber, secondNumber, thirdNumber;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\n Enter the float values only.");
+        System.out.print("Enter the first number : ");
+        firstNumber = scanner.nextFloat();
+
+        System.out.print("Enter the Second number : ");
+        secondNumber = scanner.nextFloat();
+
+        System.out.print("Enter the Third number : ");
+        thirdNumber = scanner.nextFloat();
+
+        GenericClass genericClass = new GenericClass(firstNumber, secondNumber, thirdNumber);
+        genericClass.testMaximum();
+    }
+
+    void inputString() {
+
         String firstNumber, secondNumber, thirdNumber;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first String : ");
-        firstNumber = scanner.next();
+        System.out.println("\nEnter the string values only.");
+        System.out.print("Enter the first string : ");
+        firstNumber = scanner.nextLine();
 
-        System.out.print("Enter the Second String : ");
-        secondNumber = scanner.next();
+        System.out.print("Enter the Second string : ");
+        secondNumber = scanner.nextLine();
 
-        System.out.print("Enter the Third String : ");
-        thirdNumber = scanner.next();
+        System.out.print("Enter the Third string : ");
+        thirdNumber = scanner.nextLine();
 
-        findMaxNumber(firstNumber, secondNumber, thirdNumber);
-    }
-
-    private void findMaxNumber(String firstNumber, String secondNumber, String thirdNumber) {
-        if ((firstNumber.compareTo(secondNumber) > 0)) {
-            if ((firstNumber.compareTo(thirdNumber) > 0)) {
-                System.out.println("First String is grater");
-            } else
-                System.out.println("Third String is greater");
-        } else if ((secondNumber.compareTo(thirdNumber)) > 0)
-            System.out.println("Second String is greater");
-        else
-            System.out.println("Third String is greater");
+        GenericClass genericClass = new GenericClass(firstNumber, secondNumber, thirdNumber);
+        genericClass.testMaximum();
     }
 }
